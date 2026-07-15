@@ -1,0 +1,15 @@
+=== r7_tie_on_r2 (clean tie ablation on the GOOD base, byte tok) ===
+DEV bpb = 2.2164
+=== b1_v2048_L3 ===
+corpus: 7,318,592 bytes -> 2,176,883 tokens (vocab 2048, 3.36 bytes/token)
+model: 1,728,192 params  (tie=True pos=rope L3 H4 E192 blk256)
+DEV bpb = 1.7540
+=== b2_v1024_L4 ===
+corpus: 7,318,592 bytes -> 2,608,766 tokens (vocab 1024, 2.81 bytes/token)
+model: 1,976,448 params  (tie=True pos=rope L4 H4 E192 blk256)
+DEV bpb = 1.7595
+=== b3_v3072_L3 ===
+corpus: 7,318,592 bytes -> 1,971,634 tokens (vocab 3072, 3.71 bytes/token)
+model: 1,924,800 params  (tie=True pos=rope L3 H4 E192 blk256)
+DEV bpb = 1.7416
+=== phase 2 done ===

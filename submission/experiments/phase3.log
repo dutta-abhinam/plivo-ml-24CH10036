@@ -1,0 +1,10 @@
+=== FINAL (best config -> ckpt.pt) ===
+corpus: 7,318,592 bytes -> 1,971,634 tokens (vocab 3072, 3.71 bytes/token)
+model: 1,924,800 params  (tie=True pos=rope L3 H4 E192 blk256)
+saved ckpt.pt  (341s total)
+DEV bpb = 1.7416
+=== lion_lr1e-3 (ambitious: Lion at Adam's LR, expect it to LOSE) ===
+DEV bpb = 2.0007
+=== lion_lr2e-4 (the FIX: Lion needs a much smaller LR) ===
+DEV bpb = 1.9167
+=== phase 3 done ===
